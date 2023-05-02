@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend_Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header class="header"> 
+        <a href="index.html">
+            <img class= "header__logo" src="img/logo.png" alt="Logotipó"> 
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html"> Tienda </a>
+        <a class="navegacion__enlace" href="nosotros.html"> Nosotros </a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React JS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="image-del-producto">
+            <div class="camisa__contenido">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean justo justo, pellentesque at lectus non, sagittis vulputate felis. Suspendisse congue, nulla id fermentum dignissim, diam.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--seleccione talla--</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carr_ito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Proyecto del curso Desarrollo Web Completo, todos los derechos reservados 2023 </p>
+    </footer>
+</body>
+</html>
